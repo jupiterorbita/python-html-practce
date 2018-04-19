@@ -73,7 +73,7 @@ div.wrapper{
             }
 /* MAIN CONTENT */
     div.content{
-        background-color: rgb(201, 65, 65);
+        background-color: rgb(26,79,120);
         
     }
 /* TOP about downloads doc comm... */
@@ -100,6 +100,12 @@ div.wrapper{
             margin-left:70px;
             display: inline-block;
         }
+    /* LEFT TABLE  */
+            ul.leftlist{
+                /* margin: 0 auto; */
+                text-align: center;
+                text-decoration: underline;
+            }
 
         div.rightmain{
             background-color: gold;
@@ -108,17 +114,37 @@ div.wrapper{
             display: inline-block;
             vertical-align: top;
             margin-left: 50px;
+            text-align: center;
         }
 
 
-
+/* white content page  */
     div.content2{
-        background-color: darkslateblue;
+        background-color: rgb(255, 255, 255);
+        color: black;
     }
+        div.leftwhite{
+            border-top: 2px solid blue;
+            margin-left: 80px;
+            min-height: 100px;
+            background-color: forestgreen;
+            width: 390px;
+            display: inline-block;
+            color: black;
+        }
+        div.rightwhite{
+            border-top: 2px solid blue;
+            margin-left: 10px;
+            min-height: 100px;
+            background-color: magenta;
+            width: 390px;
+            display: inline-block;
+            color: black;
+        }
 
 /* footer of the page */
     div.footer{
-        background-color: rgb(148, 136, 230);
+        background-color: rgb(26,79,120);
         min-height: 100px;
         width: 100%;
     }
