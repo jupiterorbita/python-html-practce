@@ -85,6 +85,7 @@ div.wrapper{
             display: inline-block;
             border-radius: 5px;
             vertical-align: top;
+            border: solid 1px black;
         }
             h2{
                 display: inline-block;
@@ -94,7 +95,7 @@ div.wrapper{
                 vertical-align: top;    
             }
         div.leftnav{
-            background-color: lime;
+            background-color: rgb(26,79,120);
             height: 200px;
             width: 180px;
             margin-left:70px;
@@ -109,7 +110,7 @@ div.wrapper{
         
 /* RIGHT lorem text and yellow center */
         div.rightmain{
-            background-color: gold;
+            background-color: rgb(26,79,120);
             min-height: 120px;
             width: 50%;
             display: inline-block;
@@ -135,10 +136,12 @@ div.wrapper{
             border-top: 2px solid blue;
             margin-left: 80px;
             min-height: 100px;
-            background-color: forestgreen;
+            background-color: rgb(255,255,255);
             width: 390px;
             display: inline-block;
             color: black;
+            vertical-align: top;
+            text-align: center;
         }
         div.rightwhite{
             border-top: 2px solid blue;
@@ -148,8 +151,20 @@ div.wrapper{
             width: 390px;
             display: inline-block;
             color: black;
+            vertical-align: top;
         }
-
+        h3{
+            color: black;
+            margin-top: 2px;
+            margin-bottom: 2px;
+        }
+        p.blacktext{
+            margin-top: 5px;
+            color: black;
+        }
+        li.listblue{
+            color: blue;
+        }
 /* footer of the page */
     div.footer{
         background-color: rgb(26,79,120);
