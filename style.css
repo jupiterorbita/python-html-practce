@@ -1,0 +1,124 @@
+/* CSS for python-html */
+*{
+    /* outline: dotted red; */
+    color: white;
+}
+div.wrapper{
+    /* outline: dotted red; */
+    width: 970px;
+    min-height: 100px;
+    padding: 2px;
+}
+
+    div.header, div.content, div.content2{
+        /* outline: dotted red; */
+        width: 100%;
+        min-height: 100px;
+    }
+/* HEADER - top part  */
+    div.header{
+        background-color: rgb(26,79,120);
+
+    }
+        img{
+            height: 100%;
+            width: 400px;
+            display: inline-block;
+        }
+        div.head-right{
+            background-color: rgb(26,79,120);
+            min-height: 120px;
+            width: 250px;
+            vertical-align: top;
+            display: inline-block;
+            margin-left: 300px;
+        }
+            div.topseach, div.botsearch{
+                /* outline: dotted red; */
+                min-height: 40px;
+                width: 100%;
+            }
+            div.topsearch{
+                margin-top:8px;
+                margin-left: 70px;
+                background-color: rgb(26,79,120);
+            }
+            div.botsearch{
+                border-radius: 5px;
+                background-color: rgb(61, 58, 58);
+            }
+            span.u{
+                text-decoration: underline;
+            }
+            input{
+                margin-top:10px;
+                margin-left: 40px;
+            }
+            button{
+                /* outline: dotted red; */
+                border-radius: 5px;
+                margin-top: 5px;
+                /* margin-top: 20px;
+                margin-left: 38%;
+                margin-right: 20%;
+                padding-left: 10px;
+                padding-right: 10px; */
+                background-color: rgb(0, 60, 128);
+                vertical-align: top;
+                text-align: center;
+                width: 40px;
+                height: 30px;
+                color: white;
+                border: 1px solid black;
+            }
+/* MAIN CONTENT */
+    div.content{
+        background-color: rgb(201, 65, 65);
+        
+    }
+/* TOP about downloads doc comm... */
+        div.topnav{
+            background-color: rgb(35, 119, 168);
+            margin-left: 40px;
+            width: 870px;
+            min-height: 20px;
+            display: inline-block;
+            border-radius: 5px;
+            vertical-align: top;
+        }
+            h2{
+                display: inline-block;
+                margin-left: 34px;
+                margin-top: 5px;
+                margin-bottom: 5px;
+                vertical-align: top;    
+            }
+        div.leftnav{
+            background-color: lime;
+            height: 200px;
+            width: 180px;
+            margin-left:70px;
+            display: inline-block;
+        }
+
+        div.rightmain{
+            background-color: gold;
+            min-height: 120px;
+            width: 50%;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 50px;
+        }
+
+
+
+    div.content2{
+        background-color: darkslateblue;
+    }
+
+/* footer of the page */
+    div.footer{
+        background-color: rgb(148, 136, 230);
+        min-height: 100px;
+        width: 100%;
+    }
